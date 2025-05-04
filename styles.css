@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f9f4f0;
+    color: #333;
+  }
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 300px;
+    background: #ede0d4;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .sidebar h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: #365314;
+    position: absolute;
+    top: 38px;
+    left: -40px;
+  }
+  .sidebar img {
+    width: 250px;
+    margin-left: 25px;
+    border: 5px solid #365314;
+  }
+  .sidebar nav a {
+    text-decoration: none;
+    color: #6b4c3b;
+    display: block;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  .main {
+    flex: 1;
+    padding: 40px;
+  }
+  .intro {
+    max-width: 600px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #582f0e;
+  }
+  .timeline-item, .info-block {
+    margin-bottom: 15px;
+  }
+  .contact {
+    background: #d6ccc2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .contact a {
+    color: #365314;
+    text-decoration: none;
+  }
+  .highlight {
+    background: #fefae0;
+    padding: 10px;
+    border-left: 5px solid #b08968;
+  }
